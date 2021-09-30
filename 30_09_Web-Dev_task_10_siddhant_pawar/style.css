@@ -1,0 +1,61 @@
+body {
+    font-family: "Roboto Mono", "monospace";
+    background-color: linear-gradient(rgba(0, 0, 0, 0.73),rgba(0, 0, 0,0.73)) ;
+    background-image: url('https://wallpaperaccess.com/full/187161.jpg');
+  }
+.main-container{
+    min-width: 300px;
+    width: 30vw;
+    height: 70vh;
+    border-radius: 1rem;
+    background-color: whitesmoke;
+}
+.login{
+    margin-top: 5%;
+    min-height: 100vh;
+    display: grid;
+    text-align: center;
+    place-content: center;
+    padding: 10px 18px;  
+    margin: 10px 5px;  
+}
+.login-container{
+    background-color: 	#4169E1;
+    color: whitesmoke;
+    padding: 10px 18px;  
+    margin: 5px 0px;  
+    border-radius: 5%;
+}
+input[type=text], input[type=email],input[type=password] {   
+    width: 90%;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 2px solid green;  
+    border-radius: 5%; 
+    box-sizing: border-box;   
+}  
+.check{
+    margin: 5px 5px;
+    color: black;
+}
+.forget_password{
+    text-align: left;
+    margin: 25px 5px; 
+    text-align: left;
+}
+.forget_password:hover{
+    text-decoration-color: red;
+}
+.submit {   
+    width: auto;
+    border-radius: 5%;
+    color: whitesmoke;
+    background-color:	#4169E1;   
+    padding: 7px 118px;  
+    margin: 10px 5px;  
+}  
+.submit:hover {
+    background-color:green;
+    opacity: 0.85;
+  }
